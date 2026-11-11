@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cable Drop Gauge</string>
+    <string name="app_title">CABLE DROP GAUGE</string>
+
+    <string name="splash_title">CABLE DROP GAUGE</string>
+    <string name="splash_subtitle">LOW-VOLTAGE WIRING CALCULATOR</string>
+    <string name="splash_status">CALIBRATING INSTRUMENT</string>
+
+    <string name="menu_new_run">NEW RUN</string>
+    <string name="menu_tagline">Set the system, the load and the cable length, then read the wire size.</string>
+    <string name="menu_saved_runs">SAVED RUNS</string>
+    <string name="menu_last_drop">LAST DROP</string>
+    <string name="menu_no_runs">NO RUNS STORED YET</string>
+    <string name="menu_saved_section">RUN LIBRARY</string>
+    <string name="menu_empty_runs">Start a run to store it here</string>
+
+    <string name="game_title">WIRE RUN</string>
+    <string name="game_system">SYSTEM</string>
+    <string name="game_load">LOAD</string>
+    <string name="game_length">LENGTH</string>
+    <string name="game_one_way">ONE WAY</string>
+    <string name="game_no_solution">No listed wire stays under the loss limit. Shorten the run, raise the voltage or split the load.</string>
+    <string name="game_mains_note">Low-voltage DC only. Mains wiring needs a qualified electrician.</string>
+
+    <string name="readout_current">CURRENT</string>
+    <string name="readout_drop">VOLTS LOST</string>
+    <string name="readout_loss">LOSS</string>
+    <string name="label_best">BEST</string>
+    <string name="verdict_pass">PASS</string>
+    <string name="verdict_fail">FAIL</string>
+    <string name="placeholder_value">--</string>
+
+    <string name="result_title">RESULT</string>
+    <string name="result_recommended">RECOMMENDED SIZE</string>
+    <string name="result_no_solution">NO WIRE PASSES</string>
+    <string name="result_fuse">FUSE</string>
+    <string name="result_fuse_limited">FUSE CAPPED BY WIRE</string>
+    <string name="result_supply">SUPPLY</string>
+    <string name="result_total_load">TOTAL LOAD</string>
+    <string name="result_headroom">LOAD VS SUPPLY HEADROOM</string>
+    <string name="result_breakdown">RUN BREAKDOWN</string>
+    <string name="result_limit">LOSS CAP</string>
+    <string name="result_at_load">VOLTS AT LOAD</string>
+    <string name="result_spare">SPARE SUPPLY</string>
+    <string name="result_conductor">CONDUCTOR</string>
+
+    <string name="diagram_title">RUN DIAGRAM</string>
+    <string name="diagram_cable">CABLE PATH</string>
+    <string name="diagram_loads">LOAD POINTS</string>
+    <string name="diagram_empty">Add a load point to map the run</string>
+
+    <string name="safety_title">SAFETY NOTES</string>
+    <string name="safety_banner">Low-voltage DC only. For mains wiring call a qualified electrician.</string>
+
+    <string name="settings_title">WIRE SETTINGS</string>
+    <string name="settings_units">SIZE SYSTEM</string>
+    <string name="settings_voltage">DEFAULT SYSTEM VOLTAGE</string>
+    <string name="settings_material">DEFAULT CONDUCTOR</string>
+    <string name="settings_limit">DEFAULT LOSS LIMIT</string>
+    <string name="settings_theme">OUTDOOR LIGHT MODE</string>
+    <string name="settings_theme_hint">Brighter palette for daylight bench work</string>
+    <string name="settings_storage">STORED RUNS</string>
+    <string name="settings_clear_title">CLEAR STORED RUNS</string>
+    <string name="settings_clear_message">This removes every stored run from this device. It cannot be undone.</string>
+
+    <string name="dialog_add_load">ADD LOAD POINT</string>
+    <string name="dialog_edit_load">EDIT LOAD POINT</string>
+    <string name="dialog_name">NAME</string>
+    <string name="dialog_watts">WATTS</string>
+    <string name="dialog_distance">DISTANCE</string>
+    <string name="load_default_name">NEW LOAD</string>
+
+    <string name="material_copper">COPPER</string>
+    <string name="material_aluminium">ALUMINIUM</string>
+    <string name="unit_watts">WATTS</string>
+    <string name="unit_amps">AMPS</string>
+    <string name="unit_meters">M</string>
+    <string name="unit_awg">AWG</string>
+    <string name="unit_mm2">MM2</string>
+
+    <string name="cta_start_run">START RUN</string>
+    <string name="cta_calculate">DROP CHECK</string>
+    <string name="cta_calculate_again">CALCULATE AGAIN</string>
+    <string name="cta_menu">MENU</string>
+    <string name="cta_back">BACK</string>
+    <string name="cta_add">ADD LOAD</string>
+    <string name="cta_save">SAVE</string>
+    <string name="cta_cancel">CANCEL</string>
+    <string name="cta_confirm">CLEAR</string>
+    <string name="cta_run_diagram">RUN DIAGRAM</string>
+    <string name="cta_safety_notes">SAFETY NOTES</string>
+    <string name="cta_clear_runs">CLEAR RUNS</string>
+
+    <string name="state_selected">Selected</string>
+    <string name="state_unselected">Not selected</string>
+    <string name="state_disabled">Disabled</string>
+    <string name="state_live">Live recalculation on</string>
+    <string name="state_held">Live recalculation held</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+
+    <string name="cd_logo">Cable Drop Gauge emblem</string>
+    <string name="cd_home">Back to menu</string>
+    <string name="cd_settings">Wire settings</string>
+    <string name="cd_hold">Hold live recalculation</string>
+    <string name="cd_warning">Safety warning</string>
+    <string name="cd_copper">Copper wire spool</string>
+    <string name="cd_aluminium">Aluminium wire spool</string>
+    <string name="cd_fuse">Blade fuse</string>
+    <string name="cd_led">LED strip segment</string>
+    <string name="cd_supply">Clamp meter</string>
+    <string name="cd_load_minus">Decrease load</string>
+    <string name="cd_load_plus">Increase load</string>
+    <string name="cd_length_minus">Decrease length</string>
+    <string name="cd_length_plus">Increase length</string>
+    <string name="cd_remove_load">Remove load point</string>
+    <string name="step_minus">Decrease value</string>
+    <string name="step_plus">Increase value</string>
+
+    <string name="fmt_volts">%1$s V</string>
+    <string name="fmt_amps">%1$s A</string>
+    <string name="fmt_watts">%1$s W</string>
+    <string name="fmt_meters">%1$s M</string>
+    <string name="fmt_percent">%1$s %%</string>
+    <string name="fmt_percent_int">%1$d %%</string>
+    <string name="fmt_volt_option">%1$d V</string>
+    <string name="fmt_awg">%1$d AWG</string>
+    <string name="fmt_mm2">%1$s MM2</string>
+    <string name="fmt_run_spec">%1$d V · %2$s A · %3$s M</string>
+    <string name="fmt_load_spec">%1$s W · %2$s M</string>
+    <string name="fmt_diagram_totals">%1$d LOADS · %2$s W · %3$s %% END LOSS</string>
+    <string name="fmt_result_subline">%1$s · %2$s %% LOSS · %3$s V LOST</string>
+    <string name="fmt_saved_count">%1$d STORED</string>
+
+    <string name="note_1_title">12, 24 AND 48 VOLT LIMITS</string>
+    <string name="note_1_body">This tool covers low-voltage DC only. At 12 V a small drop costs a large share of the supply, so keep the loss cap at 3 percent for lighting and 5 percent for motors and heaters.</string>
+    <string name="note_2_title">A FUSE PROTECTS THE CABLE</string>
+    <string name="note_2_body">Size the fuse to the wire, not to the load. Pick the smallest standard rating above the working current that still sits at or below the ampacity of the chosen wire.</string>
+    <string name="note_3_title">COPPER VS ALUMINIUM</string>
+    <string name="note_3_body">Aluminium carries about 61 percent of the current of copper for the same area, so an aluminium run needs roughly two sizes more to reach the same drop and the same ampacity.</string>
+    <string name="note_4_title">BUNDLING AND AMBIENT HEAT</string>
+    <string name="note_4_body">Cables bundled in a conduit or run through a warm engine bay lose ampacity. Derate the table by one size when several loaded conductors share a sleeve.</string>
+    <string name="note_5_title">GARDEN AND OUTDOOR RUNS</string>
+    <string name="note_5_body">Use cable rated for burial or UV exposure, seal every joint in a gland or a filled enclosure, and keep connections above the water line rather than in a buried box.</string>
+    <string name="note_6_title">WHEN TO CALL A PROFESSIONAL</string>
+    <string name="note_6_body">Anything on mains voltage, any fixed wiring in a building and any work behind a consumer unit belongs to a qualified electrician. This tool is for low-voltage DC runs only.</string>
+</resources>
